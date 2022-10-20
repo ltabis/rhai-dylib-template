@@ -4,8 +4,9 @@ version = "0.1.0"
 edition = "2021"
 authors = ["{{authors}}"]
 
-# Remove the library type that you do not want.
-crate-type = ["cdylib", "dylib"]
+[lib]
+# You could also use Rust's unstable ABI with "dylib".
+crate-type = ["cdylib"]
 
 [dependencies]
 rhai = { version = "1.10" }

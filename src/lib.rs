@@ -1,7 +1,11 @@
-pub mod {{crate_name}} {
-    // build your module here.
+use rhai::plugin::*;
+
+#[export_module]
+mod {{crate_name}} {
+    // Build your module here.
 }
 
+/// Export the {{crate_name}} module.
 #[no_mangle]
 pub fn module_entrypoint() -> rhai::Shared<rhai::Module> {
     rhai::exported_module!({{crate_name}}).into()
