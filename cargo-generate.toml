@@ -1,2 +1,3 @@
 [template]
 include = ["README.md", "Cargo.toml", ".gitignore", "src/", ".cargo/"]
+ignore = ["LICENSE"]
