@@ -1,0 +1,6 @@
+[env]
+# Setup your ahash seed here.
+# See https://github.com/rhaiscript/rhai-dylib#hashing for more information.
+# 
+# i.e.`RHAI_AHASH_SEED = "[1, 2, 3, 4]"`
+RHAI_AHASH_SEED = "???"
