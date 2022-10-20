@@ -1,2 +1,2 @@
 [template]
-exclude = ["LICENSE"]
+include = ["README.md", "Cargo.toml", ".gitignore", "src/", ".cargo/"]
