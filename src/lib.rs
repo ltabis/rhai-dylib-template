@@ -7,6 +7,6 @@ mod {{crate_name}} {
 
 /// Export the {{crate_name}} module.
 #[no_mangle]
-pub fn module_entrypoint() -> rhai::Shared<rhai::Module> {
+extern "C" pub fn module_entrypoint() -> rhai::Shared<rhai::Module> {
     rhai::exported_module!({{crate_name}}).into()
 }
