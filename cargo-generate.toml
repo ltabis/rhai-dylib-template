@@ -1,3 +1,8 @@
 [template]
 include = ["README.md", "Cargo.toml", ".gitignore", "src/", ".cargo/"]
 ignore = ["LICENSE"]
+
+[placeholders.ahash-key]
+type = "string"
+prompt = "What is the ahash key of program that will load this module ? (Must be an array of 4 digits like [1, 2, 3, 4])"
+default = "[1, 2, 3, 4]"
