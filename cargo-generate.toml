@@ -4,5 +4,5 @@ ignore = ["LICENSE"]
 
 [placeholders.ahash-key]
 type = "string"
-prompt = "What is the ahash key of program that will load this module ? (Must be an array of 4 digits like [1, 2, 3, 4])"
+prompt = "What is the ahash key of program that will load this module ?"
 default = "[1, 2, 3, 4]"
