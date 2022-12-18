@@ -7,7 +7,7 @@ mod {{crate_name}} {
 
 /// Export the {{crate_name}} module.
 #[no_mangle]
-extern "C" pub fn module_entrypoint() -> rhai::Shared<rhai::Module> {
+pub extern "C" fn module_entrypoint() -> rhai::Shared<rhai::Module> {
 
     // The seed must be the same as the one used in the program that will
     // load this module.
