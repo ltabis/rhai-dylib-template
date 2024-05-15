@@ -9,4 +9,4 @@ authors = ["{{authors}}"]
 crate-type = ["cdylib"]
 
 [dependencies]
-rhai = { version = "1.11" }
+rhai = { version = "1.18" }
